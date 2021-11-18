@@ -1,0 +1,32 @@
+@media screen and (min-width: 576px) {
+  .column {
+    width: 56.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 56.7rem;
+  }
+
+  .column-content {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    height: 100vh;
+  }
+  .columns {
+    flex-direction: row;
+  }
+  .column {
+    width: 30.7rem;
+  }
+  .column-content {
+    width: 21.2rem;
+    height: 12.5rem;
+    font-size: 1.5rem;
+  }
+}
