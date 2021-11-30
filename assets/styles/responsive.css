@@ -1,3 +1,8 @@
+@media screen and (min-width: 320px) {
+  .column {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 576px) {
   .column {
     width: 56.7rem;
@@ -5,10 +10,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .column {
-    width: 56.7rem;
-  }
-
   .column-content {
     font-size: 2rem;
   }
@@ -16,7 +17,7 @@
 
 @media screen and (min-width: 920px) {
   body {
-    height: 100vh;
+    height: calc(100vh - 3rem);
   }
   .columns {
     flex-direction: row;
